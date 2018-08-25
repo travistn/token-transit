@@ -336,6 +336,10 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+* {
+  margin: 0 auto;
+}
+
 .header-one {
   margin-left: 20%;
   padding: 0;
@@ -376,7 +380,6 @@
 }
 
 img {
-    max-height: 100%;
     max-width: 100%;
 }
 
@@ -393,7 +396,7 @@ img {
 .center2 {
   font-size: 75px;
   position: absolute;
-  top: 40%;
+  top: 39%;
   left: 50%;
   transform: translate(-50%, 50%);
   font-family: 'Montserrat';
@@ -403,9 +406,9 @@ img {
 
 button {
 position: absolute;
-top: 57%;
+top: 56%;
 left: 50%;
-padding: 1.5rem 2.4rem;
+padding: 1.45rem 2.5rem;
 border: none;
 border-radius: 0.2rem;
 color: white;
@@ -436,47 +439,41 @@ button:hover {
 .containerTwo {
   background-color: #EEEEEE;
   width: 100%;
-  height: 100%;
-  padding: 2.8rem 0.5rem;
-
-}
-
-.pay {
-  font-family: 'Montserrat';
-  color: #333333;
+  padding: 5.8rem 0.5rem;
   text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  position: relative;
-  bottom: 1.2rem;
-}
-
-.use {
-  font-family: 'Roboto Slab';
-  text-align: center;
-  color: #777777;
-  font-size: 22px;
-  position: relative;
-  width: calc(100% / 1.8);
-  left: 22%;
-  bottom: 2.3rem;
-  font-weight: 300;
-}
-
-.containerThree {
-  margin: 0 auto;
-  text-align: center;
-  width: 80%;
-  padding: 3rem 1rem;
 }
 
 h1 {
   font-family: 'Montserrat';
   color: #333333;
   font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  bottom: 1.8rem;
+}
+
+.containerTwo p {
+  font-family: 'Roboto Slab';
+  color: #777777;
+  font-size: 21px;
+  font-weight: 300;
+  position: relative;
+  width: 52%;
+}
+
+.containerThree {
+  text-align: center;
+  width: 80%;
+  padding: 5rem 1rem;
 }
 
 h2 {
+  font-family: 'Montserrat';
+  color: #333333;
+  font-size: 40px;
+}
+
+h3 {
   font-family: 'Montserrat';
   color: #333333;
   font-size: 18px;
@@ -489,14 +486,18 @@ h2 {
   font-size: 14px;
   font-weight: 300;
   width: 96%;
+  margin-top: 1rem;
+  line-height: 1.8;
 }
 
 .column {
   float: left;
   width: calc(100% /3);
+  margin-top: 2rem;
 }
 
 .pictures {
   width: 300px;
   height: 600px;
+  margin-top: 1rem;
 }
