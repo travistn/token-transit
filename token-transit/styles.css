@@ -441,6 +441,7 @@ button:hover {
   width: 100%;
   padding: 5.8rem 0.5rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -458,13 +459,14 @@ h1 {
   font-size: 21px;
   font-weight: 300;
   position: relative;
-  width: 52%;
+  width: 53%;
 }
 
 .containerThree {
   text-align: center;
   width: 80%;
-  padding: 5rem 1rem;
+  padding: 5rem 0.1rem;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -501,3 +503,37 @@ h3 {
   height: 600px;
   margin-top: 1rem;
 }
+
+.containerFour {
+  width: 100%;
+  text-align: center;
+  background-color: #EEEEEE;
+  float: left;
+  padding: 8rem 1rem;
+}
+
+  h4 {
+  font-family: 'Montserrat';
+  color: #333333;
+  font-size: 41px;
+  }
+
+.columnTwo {
+  width: 26%;
+  display: inline-block;
+  position: relative;
+}
+
+  h5 {
+  font-family: 'Montserrat';
+  color: #333333;
+  font-size: 18px;
+  }
+
+  .columnTwo p {
+  font-family: 'Roboto Slab';
+  color: #777777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.8;
+  }
