@@ -404,7 +404,7 @@ img {
 
 }
 
-button {
+.buttonOne {
 position: absolute;
 top: 56%;
 left: 50%;
@@ -420,7 +420,7 @@ background-color: #2899D4;
 transform: translate(-50%, 50%);
 }
 
-button:hover {
+.buttonOne:hover {
   cursor: pointer;
   background-color: #2C74A1;
 }
@@ -508,20 +508,24 @@ h3 {
   width: 100%;
   text-align: center;
   background-color: #EEEEEE;
+  box-sizing: border-box;
+  padding: 5.4rem 0rem;
   float: left;
-  padding: 8rem 1rem;
 }
 
   h4 {
   font-family: 'Montserrat';
   color: #333333;
-  font-size: 41px;
+  font-size: 40px;
+  position: relative;
+  bottom: 1rem;
   }
 
 .columnTwo {
   width: 26%;
   display: inline-block;
   position: relative;
+  top: 1.3rem;
 }
 
   h5 {
@@ -536,4 +540,26 @@ h3 {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.8;
+  margin-top: 1rem;
   }
+
+  .buttonTwo {
+    padding: 1.45rem 2.6rem;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0;
+    background-color: #2899D4;
+    display: block;
+    margin-top: 2.2rem;
+    position: relative;
+    top: 1rem;
+}
+
+.buttonTwo:hover {
+  cursor: pointer;
+  background-color: #2C74A1;
+}
