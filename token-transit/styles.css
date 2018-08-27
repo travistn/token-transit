@@ -340,37 +340,36 @@
   margin: 0 auto;
 }
 
-.header-one {
-  margin-left: 20%;
-  padding: 0;
-  font-size: 20px;
-  font-family: 'Montserrat';
-}
-
 .navBar {
-  overflow: hidden;
-  background-color: transparent;
-  position: fixed;
   width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  padding: 1.2rem;
+  background-color: #222222;
 }
 
-.navBar a {
-  display: inline-block;
+.navLeft {
+  font-size: 22px;
+  font-family: 'Montserrat';
+  color: #2899D4;
+}
+
+.navRight a {
   color: white;
   font-family: 'Montserrat';
-  background-color: gray;
-  text-align: right;
   text-decoration: none;
-  padding: 10px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
-.navBar a:hover {
-  background: skyblue;
+.navRight a:hover {
+  background: #2899D4;
 }
 
-.header-one:hover {
-  color: skyblue;
+.navLeft:hover {
+  color: #2C74A1;
+  cursor: pointer;
 }
 
 .container {
